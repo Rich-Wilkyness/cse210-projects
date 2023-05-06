@@ -2,8 +2,8 @@ using System;
 
 class RandomIndex
 {
-    private int index;
-    private List<int> currentIndexes = new List<int>();
+    private int _index;
+    private List<int> _currentIndexes = new List<int>();
     // private List<int> previousIndexes = new List<int>();
 
 
@@ -14,22 +14,22 @@ class RandomIndex
         {
             var random = new Random();
 
-            index = random.Next(scriptureLength);
+            _index = random.Next(scriptureLength);
 
             keepGoing = false;
-            foreach (int i in currentIndexes)
+            foreach (int i in _currentIndexes)
             {
-                if (i == index)
+                if (i == _index)
                 {
                     keepGoing = true;
                 }
             }
         }
-        currentIndexes.Add(index);
+        _currentIndexes.Add(_index);
     }
     public List<int> GetCurrentIndexes()
     {
-        return currentIndexes;
+        return _currentIndexes;
     }
     // public List<int> GetPreviousIndexes()
     // {
