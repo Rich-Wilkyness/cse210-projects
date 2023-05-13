@@ -4,7 +4,6 @@ class BreathingActivity : Activity
 {
     public BreathingActivity(string activityType, string description) : base(activityType, description)
     {
-
     }
     public void Prompt()
     {
@@ -22,7 +21,6 @@ class BreathingActivity : Activity
         }
         DisplayEnd();
     }
-
     public void Breathe()
     {
         if (_specifiedTime < 10)

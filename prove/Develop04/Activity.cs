@@ -5,7 +5,6 @@ class Activity
     private string _activityType;
     private string _description;
     protected int _specifiedTime;
-
     public Activity(string activityType, string description)
     {
         _activityType = activityType;
@@ -33,7 +32,6 @@ class Activity
         LoadingAnimation();
         Console.ReadLine();
     }
-
     public void LoadingAnimation()
     {
         List<string> animationPieces = new List<string> { "/", $"{(char)0x2014}", @"\", "|", "/", $"{(char)0x2014}", @"\", "|" };
@@ -65,5 +63,4 @@ class Activity
         int index = random.Next(inputList.Count);
         return inputList[index];
     }
-
 }
