@@ -1,0 +1,5 @@
+200
+3 * 5/31/2023 * rent * 900 * bill * y
+4 * 5/31/2023 * dishes * 10 * eternal * y * 0 * n
+1 * lorenzo * lorenzo.txt
+2 * disney * 100 * 800

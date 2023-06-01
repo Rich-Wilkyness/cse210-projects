@@ -1,0 +1,5 @@
+395
+3 * 5/31/2023 * rent * 900 * bill * y
+4 * 5/31/2023 * dishes * 5 * eternal * y * 1 * y
+1 * lyla * lyla.txt
+2 * disney world * 100 * 100

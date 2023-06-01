@@ -2,15 +2,15 @@ using System;
 
 abstract class Family
 {
-    protected decimal _money;
+    protected decimal _money = 0;
     protected string _name;
-    public Family(string name, decimal money)
+    protected string _filename;
+    public Family(string name, string filename)
     {
         _name = name;
-        _money = money;
+        _filename = filename;
     }
-    public abstract void DisplayList();
+
     public abstract void DisplayMoney();
     public abstract void Save();
-    public abstract void Load();
 }
